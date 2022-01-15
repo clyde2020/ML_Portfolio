@@ -1,5 +1,6 @@
 # Title
 SATELLITE
+
 Satellite Remote Sensing image interpretation model 
 
 # Description 
@@ -13,6 +14,7 @@ Because of the inequality of images per label, we sample the data for each metho
 
 # Technologies 
 Python 3.7 
+
 Tensorflow X.XX
 
 # Run the project
