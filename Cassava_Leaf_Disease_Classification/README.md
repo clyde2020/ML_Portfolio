@@ -1,5 +1,4 @@
-# Title
-SATELLITE
+# SATELLITE
 
 Satellite Remote Sensing image interpretation model 
 
