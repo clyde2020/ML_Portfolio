@@ -22,7 +22,7 @@ This project was created in Google Colab. The directories are addressed as such 
 Data can be downloaded from:  https://www.kaggle.com/mahmoudreda55/satellite-image-classification
 
 ## There are several sections which can be executed:
-Import libraries: Required to execute code
-Initilize variables:  Required for rest of code. Sample should not be higher than the least represented label, which is 1131.
-View image: Optional code to see what an image looks like. The path variable must be updated to a valid location.
-Process data for image dataframe: This designates and creates folders for the images which are then split. Complete dataframe is created.
+**Import libraries:** Required to execute code
+**Initilize variables:**  Required for rest of code. Sample should not be higher than the least represented label, which is 1131.
+**View image:** Optional code to see what an image looks like. The path variable must be updated to a valid location.
+**Process data for image dataframe:** This designates and creates folders for the images which are then split. Complete dataframe is created.
