@@ -29,3 +29,9 @@ Data can be downloaded from:  https://www.kaggle.com/mahmoudreda55/satellite-ima
 **View image:** Optional code to see what an image looks like. The path variable must be updated to a valid location.
 
 **Process data for image dataframe:** This designates and creates folders for the images which are then split. Complete dataframe is created.
+
+**Process data for transfer learning:** This creates numpy arrays for the images and labels, rescales the data, and readies it for the transfer models.
+
+**Get feature maps from pretrained models:**  This creates a function which extracts the feature maps from 5 pretrained models.
+
+**Define and execute transfer learning model:** We find a best model of 97% accuracy versus the validation data.
