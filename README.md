@@ -1,13 +1,12 @@
 # ML_Portfolio
-Projects
+Welcome to my Machine Learning Portfolio! These projects are designed to showcase my machine learning abilities with Python and Tensorflow.
+
+The projects include:
+
 Cassava
-Satellite
-Histopathologic Cancer Detection
 
 Satellite
-Remote Sensing image interpretation model
-Description
-This project database comes from Kaggle, Satellite image Classification Dataset-RSI-CB256. The goal is to create a model which can interpret  4 different classes of remote sensing (RS) images.
-Technologies
-Python 3.7
-Tensorflow X.XX
+
+Histopathologic Cancer Detection
+
+These are image classification projects which focuses on maximizing accuracy with regards to validation and test sets. All projects can be run on Google Colab and all datasets can be downloaded from Kaggle.
