@@ -13,23 +13,24 @@ Because of the inequality of images per label, we sample the data for each metho
 
 # Technologies 
 -Python 3.6
+
 -Tensorflow 2.7
 
 # Run the project
 This project was created in Google Colab. The directories are addressed as such for my own Colab environment. Setting up your source, train, and valid folders in the Initialize variables code section should allow the project to run.
 
-Download the project [here](https://www.kaggle.com/mahmoudreda55/satellite-image-classification)
+Download the project [data here](https://www.kaggle.com/mahmoudreda55/satellite-image-classification)
 
 ### There are several sections which can be executed:
 -**Import libraries:** Required to execute code
 
--**Initilize variables:**  Required to execute code. Sample should not be higher than the least represented label, which is 1131.
+-**Initilize variables:**  Required to execute code.
 
--**View image:** Optional code to see what an image looks like. The path variable must be updated to a valid location.
+-**View image:** Required to execute code. The path variable must be updated to a valid image location.
 
--**Process data for image dataframe:** This designates and creates folders for the images which are then split. Complete dataframe is created.
+-**Set up flow_from_dataframe:** Create flow_from_dataframe for data into models.
 
--**Process data for transfer learning:** This creates numpy arrays for the images and labels, rescales the data, and readies it for the transfer models.
+-**Set up flow_from_directory:** Create flow_from_directory for data into models.
 
 -**Get feature maps from pretrained models:**  This creates a function which extracts the feature maps from 5 pretrained models.
 
