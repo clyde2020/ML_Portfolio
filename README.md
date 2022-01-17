@@ -3,10 +3,12 @@ Welcome to my Machine Learning Portfolio! These projects are designed to showcas
 
 The projects include:
 
-Cassava
+Cassava leaf disease classification
 
-Satellite
+Satellite image interpretation
 
-Histopathologic Cancer Detection
+Histopathologic cancer detection
 
-These are image classification projects which focuses on maximizing accuracy with regards to validation and test sets. All projects can be run on Google Colab and all datasets can be downloaded from Kaggle.
+These are image classification projects which focus on maximizing accuracy with regards to validation and test sets. All projects can be run on Google Colab and all datasets can be downloaded from Kaggle.
+
+Please view the README file in each project folder for more specifics.
