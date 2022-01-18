@@ -41,6 +41,6 @@ Download the project [data here](https://www.kaggle.com/mahmoudreda55/satellite-
 **Process data for model:** Create flow_from_directory for data into models.
 
 **Define and execute model:** We find a best model of 92.7% accuracy versus the validation data.
-
-
+###
+###
 **Evaluate the validation predictions a bit further:**  Reload the best model, flow validation images 1 at a time through the model for predictions, evaluate the accuracy
