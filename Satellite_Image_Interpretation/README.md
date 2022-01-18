@@ -26,9 +26,9 @@ Download the project [data here](https://www.kaggle.com/mahmoudreda55/satellite-
 
 **Initilize variables:**  Required to execute code. The host_folder variable must be updated to the folder which houses the downloaded data folder.
 
-**View data:** Required to execute code.. The path variable must be updated to a valid image location.
+**View data:** Required to execute code. The path variable must be updated to a valid image location.
 
-**Process data for image dataframe:** This designates and creates folders for the images which are then split. Complete dataframe is created.
+**Process data for image dataframe:** Required to execute code. This designates and creates folders for the images which are then split. Complete dataframe is created.
 
 ### TRANSFER LEARNING
 **--Process data for transfer learning:** This creates numpy arrays for the images and labels, rescales the data, and readies it for the transfer models.
