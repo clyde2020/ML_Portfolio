@@ -21,7 +21,7 @@ This project was created in Google Colab. The directories are addressed as such 
 
 Download the project [data here](https://www.kaggle.com/mahmoudreda55/satellite-image-classification)
 
-### There are several sections which can be executed:
+## There are several sections which can be executed:
 **Import libraries:** Required to execute code
 
 **Initilize variables:**  Required to execute code. The host_folder variable must be updated to the folder which houses the downloaded data folder.
@@ -30,14 +30,14 @@ Download the project [data here](https://www.kaggle.com/mahmoudreda55/satellite-
 
 **Process data for image dataframe:** This designates and creates folders for the images which are then split. Complete dataframe is created.
 
-**TRANSFER LEARNING**
+### TRANSFER LEARNING
 **Process data for transfer learning:** This creates numpy arrays for the images and labels, rescales the data, and readies it for the transfer models.
 
 **Get feature maps from pretrained models:**  This creates a function which extracts the feature maps from 5 pretrained models.
 
 **Define and execute transfer learning model:** We find a best model of 97% accuracy versus the validation data.
 
-**6 CNN LAYER MODEL**
+### 6 CNN LAYER MODEL
 **Process data for model:** Create flow_from_directory for data into models.
 
 **Define and execute model:** We find a best model of 92.7% accuracy versus the validation data.
