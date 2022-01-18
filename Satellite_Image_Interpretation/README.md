@@ -31,19 +31,16 @@ Download the project [data here](https://www.kaggle.com/mahmoudreda55/satellite-
 **Process data for image dataframe:** This designates and creates folders for the images which are then split. Complete dataframe is created.
 
 ### TRANSFER LEARNING
-**Process data for transfer learning:** This creates numpy arrays for the images and labels, rescales the data, and readies it for the transfer models.
+**--Process data for transfer learning:** This creates numpy arrays for the images and labels, rescales the data, and readies it for the transfer models.
 
-**Get feature maps from pretrained models:**  This creates a function which extracts the feature maps from 5 pretrained models.
+**--Get feature maps from pretrained models:**  This creates a function which extracts the feature maps from 5 pretrained models.
 
-**Define and execute transfer learning model:** We find a best model of 97% accuracy versus the validation data.
+**--Define and execute transfer learning model:** We find a best model of 97% accuracy versus the validation data.
 
 ### 6 CNN LAYER MODEL
-**Process data for model:** Create flow_from_directory for data into models.
+**--Process data for model:** Create flow_from_directory for data into models.
 
-**Define and execute model:** We find a best model of 92.7% accuracy versus the validation data.
+**--Define and execute model:** We find a best model of 92.7% accuracy versus the validation data.
 ###
-###
-###
-
 
 **Evaluate the validation predictions a bit further:**  Reload the best model, flow validation images 1 at a time through the model for predictions, evaluate the accuracy
