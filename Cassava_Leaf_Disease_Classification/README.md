@@ -26,7 +26,7 @@ Download the project [data here](https://www.kaggle.com/mahmoudreda55/satellite-
 
 -**Initilize variables:**  Required to execute code. The home_dir variable must be updated to the folder which houses the train_images folder.
 
--**View image:** Required to execute code. The path variable must be updated to a valid image location.
+-**View data:** Required to execute code. The path variable must be updated to a valid image location.
 
 -**Data processing for transfer model and flow_from_dataframe:** Process data when using either of these models.
 
