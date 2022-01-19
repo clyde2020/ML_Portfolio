@@ -5,7 +5,7 @@ Histopathologic Cancer Detection model
 # Description 
 This project database comes from Kaggle. The goal is to create a model which can identify metastatic tissue in histopathologic scans of lymph node sections.
 
-Flow_from_directory is utilized to feed images into a 6 CNN layer model. Afterwards, the test data is fed into the model, and the predictions csv file is generated for submission into Kaggle.
+Flow_from_directory is utilized to feed images into a 6 CNN layer model. Afterwards, the test data is fed into the model, and the predictions CSV file is generated for submission into Kaggle.
 
 Because of the inequality of images per label, we sample the data so the model can train on equal representation of images.
 
@@ -26,12 +26,12 @@ Download the project [data here](https://www.kaggle.com/c/histopathologic-cancer
 
 -**View data:** Required to execute code. The path variable must be updated to a valid image location.
 
--**Process data:** Process data when using either of these models.
+-**Process data:** Process data to feed into model.
 
--**Define and execute model:** We find and save the best model for validation accuracy. You have the option to choose an individual pretrained model or several.
+-**Define and execute model:** We find and save the best model for validation accuracy.
 
--**Get predictions and create submission CSV file:** We find and save the best model for validation accuracy.
+-**Get predictions and create submission CSV file:** We get predictions from the test data, then we process the CSV file for submission into Kaggle.
 
--**Get AUC:** We find and save the best model for validation accuracy.
+-**Get AUC:** We find the area under the curve metric.
 
 
