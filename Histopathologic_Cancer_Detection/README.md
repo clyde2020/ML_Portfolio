@@ -22,7 +22,7 @@ Download the project [data here](https://www.kaggle.com/c/histopathologic-cancer
 ### There are several sections which can be executed:
 -**Import libraries:** Required to execute code
 
--**Initilize variables:**  Required to execute code. The home_dir variable must be updated to the folder which houses the train_images folder.
+-**Initilize variables:**  Required to execute code. The initial_dir variable must be updated to the folder which houses all of the downloaded folders.
 
 -**View data:** Required to execute code. The path variable must be updated to a valid image location.
 
