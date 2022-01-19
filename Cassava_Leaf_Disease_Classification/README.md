@@ -24,20 +24,17 @@ Download the project [data here](https://www.kaggle.com/mahmoudreda55/satellite-
 ### There are several sections which can be executed:
 -**Import libraries:** Required to execute code
 
--**Initilize variables:**  Required to execute code.
+-**Initilize variables:**  Required to execute code. The home_dir variable must be updated to the folder which houses the train_images folder.
 
 -**View image:** Required to execute code. The path variable must be updated to a valid image location.
 
--**Set up flow_from_dataframe:** Create flow_from_dataframe for data into models.
+-**Data processing for transfer model and flow_from_dataframe:** Process data when using either of these models.
 
--**Set up flow_from_directory:** Create flow_from_directory for data into models.
+-**Data processing for flow_from_directory:** Process data when using this model.
 
--**Get feature maps from pretrained models:**  This creates a function which extracts the feature maps from 5 pretrained models.
+-**Define and execute transfer learning model:** We find and save the best model for validation accuracy. You have the option to choose an individual pretrained model or several.
 
--**Define and execute transfer learning model:** We find a best model of 97% accuracy versus the validation data.
+-**Define and execute flow_from_dataframe 6 CNN layer model:** We find and save the best model for validation accuracy.
 
--**Process data for 6 CNN layer model:** Create flow_from_directory for data into models.
+-**Define and execute flow_from_directory 6 CNN layer model:** We find and save the best model for validation accuracy.
 
--**Define and execute 6 CNN layer model:** We find a best model of 92.7% accuracy versus the validation data.
-
--**Evaluate the validation predictions a bit further:**  Reload the best model, flow validation images 1 at a time through the model for predictions, evaluate the accuracy
