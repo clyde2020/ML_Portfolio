@@ -26,14 +26,12 @@ Download the project [data here](https://www.kaggle.com/c/histopathologic-cancer
 
 -**View data:** Required to execute code. The path variable must be updated to a valid image location.
 
--**Data processing for transfer model and flow_from_dataframe:** Process data when using either of these models.
+-**Process data:** Process data when using either of these models.
 
--**Data processing for flow_from_directory:** Process data when using this model.
+-**Define and execute model:** We find and save the best model for validation accuracy. You have the option to choose an individual pretrained model or several.
 
--**Define and execute transfer learning model:** We find and save the best model for validation accuracy. You have the option to choose an individual pretrained model or several.
+-**Get predictions and create submission CSV file:** We find and save the best model for validation accuracy.
 
--**Define and execute flow_from_dataframe 6 CNN layer model:** We find and save the best model for validation accuracy.
-
--**Define and execute flow_from_directory 6 CNN layer model:** We find and save the best model for validation accuracy.
+-**Get AUC:** We find and save the best model for validation accuracy.
 
 
