@@ -24,7 +24,7 @@ Download the project [data here](https://www.kaggle.com/c/histopathologic-cancer
 
 -**Initilize variables:**  Required to execute code. The initial_dir variable must be updated to the folder which houses all of the downloaded folders.
 
--**View data:** Required to execute code. The path variable must be updated to a valid image location.
+-**View data:** Not required, only for visualizing data.
 
 -**Process data:** Process data to feed into model.
 
