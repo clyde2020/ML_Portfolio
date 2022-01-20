@@ -5,9 +5,9 @@ Cassava Leaf Disease Classification model
 # Description 
 This project database comes from Kaggle. The goal is to create a model which can identify the type of disease present on a Cassava leaf image.
 
-2 different methods were used to classify the images. The first method utilizes 5 pretrained models to obtain feature maps from each. Then this info is fed into a model for an accuracy of 97%.
+2 different methods were used to classify the images. The first method utilizes 5 pretrained models to obtain feature maps from each. Then this info is fed into a model.
 
-The second method utilizes image flow_from_directory to feed images into a 6 CNN layer model for an accuracy of 92.7%.
+The second method utilizes image flow_from_directory to feed images into a 6 CNN layer model.
 
 Because of the inequality of images per label, we sample the data for each method so the numbers not so skewed.
 
@@ -17,7 +17,7 @@ Because of the inequality of images per label, we sample the data for each metho
 -Tensorflow 2.7
 
 # Run the project
-This project was created in Google Colab. The directories are addressed as such for my own Colab environment. Setting up your source, train, and valid folders in the Initialize variables code section should allow the project to run.
+This project was created in Google Colab. The directories are addressed as such for my own Colab environment. There are comments in the code which show which lines must be updated for the code to work.
 
 Download the project [data here](https://www.kaggle.com/mahmoudreda55/satellite-image-classification)
 
