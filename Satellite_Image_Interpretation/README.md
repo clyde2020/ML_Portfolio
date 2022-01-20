@@ -17,7 +17,7 @@ Python 3.6
 Tensorflow 2.7
 
 # Run the project
-This project was created in Google Colab. The directories are addressed as such for my own Colab environment. Setting up your source, train, and valid folders in the Initialize variables code section should allow the project to run.
+This project was created in Google Colab. The directories are addressed as such for my own Colab environment. There are comments in the code which show which lines must be updated for the code to work.
 
 Download the project [data here](https://www.kaggle.com/mahmoudreda55/satellite-image-classification)
 
