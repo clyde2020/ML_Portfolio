@@ -24,7 +24,7 @@ Download the project [data here](https://www.kaggle.com/c/titanic/data)
 ## There are several sections which can be executed:
 **Import libraries:** Required to execute code
 
-**Initilize variables:**  Required to execute code. The host_folder variable must be updated to the folder which houses the downloaded data.
+**Initilize variables:**  Required to execute code. The host_dir variable must be updated to the folder which houses the downloaded data.
 
 **Process data:** Required to execute code. This cleans and processes the data before transformation.
 
