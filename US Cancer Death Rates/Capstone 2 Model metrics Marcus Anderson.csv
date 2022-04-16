@@ -1,0 +1,8 @@
+MODEL,R_SQUARED,MAE,MSE
+Gradient boosting regression,0.711,10.7,231.3
+OLS,0.527,13.8,342.5
+Random forest,0.502,14.1,398.5
+ElasticNet,0.49,14.8,407.8
+Linear regression,0.487,14.7,410.6
+Light GBM,0.334,17.1,532.9
+Residual boosting,0.326,17.1,539.2
