@@ -19,7 +19,7 @@ Because of the inequality of images per label, we sample the data for each metho
 # Run the project
 This project was created in Google Colab. The directories are addressed as such for my own Colab environment. There are comments in the code which show which lines must be updated for the code to work.
 
-Download the project [data here](https://www.kaggle.com/mahmoudreda55/satellite-image-classification)
+Download the project [data here](https://www.kaggle.com/c/cassava-leaf-disease-classification/overview)
 
 ### There are several sections which can be executed:
 -**Import libraries:** Required to execute code
